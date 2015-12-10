@@ -1,0 +1,30 @@
+{
+  "name": "drboom-tedius",
+  "version": "0.1.0",
+  "description": "Catches tedious errors and converts them into Hapi Boom errors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fritzy/drboom-tedius.git"
+  },
+  "keywords": [
+    "drboom",
+    "tedius",
+    "error",
+    "hapi",
+    "boom"
+  ],
+  "author": "Nathan Fritz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fritzy/drboom-tedius/issues"
+  },
+  "homepage": "https://github.com/fritzy/drboom-tedius#readme",
+  "dependencies": {
+    "boom": "^3.0.0",
+    "tedious": "^1.13.1"
+  }
+}

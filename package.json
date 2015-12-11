@@ -1,6 +1,6 @@
 {
   "name": "drboom-tedious",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Catches tedious errors and converts them into Hapi Boom errors.",
   "main": "index.js",
   "scripts": {

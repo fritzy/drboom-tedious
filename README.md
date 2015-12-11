@@ -17,7 +17,7 @@ var server = new hapi.Server();
 server.connection(config);
 
 server.register([{
-    register: require('drboom')(),
+    register: require('drboom'),
     options: {
         plugins: [require('drboom-tedious')()]
     },
